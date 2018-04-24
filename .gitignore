@@ -1,4 +1,27 @@
+# ignore and created directories
+*/classes
+*.class
+*/deploy
+*/deploy/
+*/*svn/
+.adf/
+.data/
+**/classes
+target
+.settings/
+*/bin/
 .project
 .classpath
-.settings
-target
+
+# package files
+*.jar
+*.war
+*.ear
+
+#dev specific properties files
+*_devfile_*
+
+
+# other files
+*.sso
+*.sso.lck
